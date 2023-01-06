@@ -229,6 +229,11 @@ img {
 
 }
 
+.planname {
+    font-family: 'Palatino', sans-serif;
+    font-size: 2em;
+    color: gold;
+}
 
 
 .benefits {
@@ -246,7 +251,7 @@ img {
     padding: 0.5em;
     transition: 200ms;
     text-decoration: none;
-    color: inherit;
+    color: gold;
     width: auto;
 }
 
@@ -281,7 +286,7 @@ footer {
 
 .maincontent {
     margin-top: 2em;
-    padding: 0em 1em 0em 1em;
+    padding: 0em 1em 0em;
     font-size: 2em;
     background-color: #144272;
     text-align: center;
