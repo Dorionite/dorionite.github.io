@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+div {
+    width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    margin: 0;
+    background-color: #2C74B3;
+    display: flex;
+    flex-direction: column;
+    max-width: inherit;
+}
+
+a {
+    width: 100%;
+}
+
+
+#start {
+
+
+    font-family: 'RaleWay', sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    color: #7aa8e8;
+    background-color: #144272;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+nav {
+    background-color: #144272;
+    position: sticky !important;
+
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding: 1em 1em 1em 1em;
+    max-width: inherit;
+    border-bottom: gold solid 10px;
+}
+
+/*
+
+.navbutton {
+    color: #0A2647;
+    background-color: #7aa8e4;
+    border-radius: 15px;
+    border: solid 3px #2b5996;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+    max-width: inherit;
+}
+
+
+
+.btn {
+    margin: 0 1px 0 1px;
+}
+
+*/
+.panel {
+    border-top: gold 10px;
+    border-bottom: gold 10px;
+    border-style: dashed;
+    display: flex;
+    color: #7aa8e4;
+    margin-top: 3em;
+    background-color: #0A2647;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Palatino', sans-serif;
+    padding: 0.5em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.panel img {
+    max-width: 100%;
+    width: 3em;
+
+}
+
+
+
+.benefits {
+    margin: 1em;
+    color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+
+.price {
+    background-color: #144272;
+    border-radius: 20px;
+    padding: 0.5em;
+    transition: 200ms;
+    text-decoration: none;
+    color: inherit;
+    width: auto;
+}
+
+/*.price:hover {
+    color: gold;
+    border: 3px solid gold;
+}
+
+*/
+
+footer {
+    border-top: gold 10px;
+    border-style: solid;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3em;
+    background-color: #0A2647;
+    font-size: 2em;
+    padding: 2em;
+    text-align: center;
+    color: #7aa8e8;
+
+}
+
+#footer1 {
+    margin: 0.5em;
+    display: block;
+}
+
+#bigd {
+    color: antiquewhite;
+}
+
+.maincontent {
+    margin-top: 2em;
+    font-size: 3em;
+    background-color: #144272;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #7aa8e4;
+    width: 100%;
+    border-top: gold 10px;
+    border-bottom: gold 10px;
+    border-style: dashed;
+}
+
+#wagie {
+    width: 3em;
+    margin: 2em;
+}
+
+#donation {
+    background-color: #0A2647;
+    border-radius: 20px;
+    padding: 0.5em;
+    transition: 200ms;
+    text-decoration: none;
+    color: antiquewhite;
+    margin: auto;
+    display: inline-block;
+    max-width: 20em;
+}
+
+#couple {
+    width: 3em;
+    margin: 2em
+}
